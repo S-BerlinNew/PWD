@@ -1,3 +1,8 @@
+body {
+    width: auto;
+    height: auto;
+}
+
 .myfthings {
     background-color: blanchedalmond;
     margin: 0;
@@ -11,38 +16,60 @@
 nav {
     background-color: blanchedalmond;
     padding: 10px 20px;
+    align-items: center;
 }
 
 .nav1 {
-    display: inline-flexbox;
-    padding: 10px;
-    margin: 2px;
-    color: black;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     background-color: beige;
+    border: 2px solid burlywood;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
     border-radius: 10px;
 }
 
 .nav1:hover{
-    background-color: skyblue;
+    background-color: burlywood;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.ul li {
+    background-color: beige;
+    border: 2px solid burlywood;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.ul li:hover{
+    background-color: burlywood;
     cursor: pointer;
     transition: background-color .3s ease-in-out;
 }
 
 .nav2 {
-    display: inline-block;
-    padding: 10px;
-    margin: 2px;
     color: black;
     text-decoration: none;
-    background-color: white;
-    border-radius: 10px;
 }
-
-.nav2:hover{
-    background-color: skyblue;
-    cursor: pointer;
-    transition: background-color .3s ease-in-out;
+.nav3 {
+    color: black;
+    text-decoration: none;
+}
+.nav4 {
+    color: black;
+    text-decoration: none;
 }
 
 .deskripsi {
@@ -59,10 +86,14 @@ nav {
 }
 
 .pdesk {
+    display: flex;
     flex-grow: 1;
     margin: 0;
     padding: 10px;
-    width: 100%;
-    text-align: justify;
-    background-color: white;
+}
+
+/* Badminton */
+.badminton {
+    display: block;
+    background-color: burlywood;
 }
