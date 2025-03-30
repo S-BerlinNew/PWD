@@ -1,5 +1,5 @@
 .myfthings {
-    background-color: beige;
+    background-color: blanchedalmond;
     margin: 0;
     padding: 0;
 }
@@ -19,7 +19,7 @@ nav {
     margin: 2px;
     color: black;
     text-decoration: none;
-    background-color: white;
+    background-color: beige;
     border-radius: 10px;
 }
 
@@ -45,3 +45,24 @@ nav {
     transition: background-color .3s ease-in-out;
 }
 
+.deskripsi {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.desk1 {
+    text-align: center;
+    margin: 0;
+}
+
+.pdesk {
+    flex-grow: 1;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+    background-color: white;
+}
