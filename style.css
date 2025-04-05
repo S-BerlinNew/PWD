@@ -24,7 +24,7 @@ html, body {
     color: burlywood;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);  
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);  
     z-index: 5;
 }
 
@@ -155,10 +155,13 @@ footer {
 
 /* HEADER FOVORITE THINGS */
 .covertop2 {
-    background-color: #e4ca9e;
+    background-color: #b08d57;
     text-align: center;
     position: relative;
     padding: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
 }
 
 /* BADMINTON */
@@ -181,6 +184,8 @@ footer {
     padding: 0;
     margin: 0;
 }
+
+
 
 /* YOUTUBE */
 .youtube {
