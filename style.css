@@ -141,7 +141,6 @@ footer {
     z-index: 10;
 
     color: white;
-    color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -150,12 +149,9 @@ footer {
 
 
 
-
-
-
 /* HEADER FOVORITE THINGS */
 .covertop2 {
-    background-color: #b08d57;
+    background-color: #cf8a4f;
     text-align: center;
     position: relative;
     padding: 30px;
@@ -166,14 +162,17 @@ footer {
 
 /* BADMINTON */
 .badminton {
+    display: flex;
     padding: 30px;
     margin: 40px;
+    align-items: flex-start;
+    background-color: #cf8a4f;
 }
 .badminton img {
     width: 30%;
     height: 30%;
     float: left;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .badminton h2 {
@@ -185,12 +184,17 @@ footer {
     margin: 0;
 }
 
-
+.badminton ul {
+    padding-left: 20px;
+}
 
 /* YOUTUBE */
 .youtube {
+    display: flex;
     padding: 30px;
     margin: 40px;
+    align-items: flex-start;
+    background-color: #cf8a4f;
 }
 
 .youtube img {
@@ -208,10 +212,17 @@ footer {
     margin: 0;
 }
 
+.youtube ul {
+    padding-left: 20px;
+}
+
 /*MUSIC */
 .musik {
+    display: flex;
     padding: 30px;
     margin: 40px;
+    align-items: flex-start;
+    background-color: #cf8a4f;
 }
 
 .musik img {
@@ -229,23 +240,120 @@ footer {
     margin: 0;
 }
 
+.musik ul {
+    padding-left: 20px;
+}
+
+/* NAVIGATION */
+.nav-fthings1 {
+    margin-top: 10px;
+    display: inline-block;
+    width: 200px;
+    padding: 25px;
+    border: 2px solid #fbf6cf;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: burlywood;
+    font-weight: bold;
+    
+
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+}
+
+.nav-fthings1:hover{
+    background-color: burlywood;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.3);
+    transition: background-color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.nav-fthings2 {
+    margin-top: 10px;
+    display: inline-block;
+    width: 200px;
+    padding: 25px;
+    border: 2px solid #fbf6cf;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: burlywood;
+    font-weight: bold;
+    
+
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+}
+
+.nav-fthings2:hover{
+    background-color: burlywood;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.3);
+    transition: background-color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.foot2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    z-index: 10;
+
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
 
 
 
+/* HEADER ABOUT */
+.about {
+    background-color: #cf8a4f;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+}
 
+.p-about {
+    background-color: burlywood;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
 
+.navabout {
+    background-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.navabout:hover{
+    background-color: burlywood;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.3);
+    transition: background-color .3s ease-in-out;
+    transition: box-shadow .3s ease-in-out;
+}
 
