@@ -3,7 +3,7 @@ html, body {
     height: auto;
     margin: 0;
     padding: 0;
-    background-color: #e4ca9e;
+    background-color: #c3c2bf;
 }
 
 /* HEADER */
@@ -46,7 +46,7 @@ html, body {
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0)0%, rgba(0,0,0,0)0%,
-    rgba(228, 202, 258, 0.7) 70%, #e4ca9e 100%);
+    rgba(228, 202, 258, 0.7) 70%, #c3c2bf 100%);
 }
 
 /* DESKRIPSI */
@@ -64,9 +64,8 @@ html, body {
 }
 
 .deskripsi div {
-    color: white;
+    color: black;
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
 }
 
 /* NAVIGATION */
@@ -81,25 +80,26 @@ nav {
     display: inline-block;
     width: 200px;
     padding: 25px;
-    border: 2px solid burlywood;
-    color: black;
+    border: 2px solid #ebebeb;;
     font-size: 20px;
     text-decoration: none;
     border-radius: 20px;
     text-decoration: none;
-    background-color: #cf8a4f;
+    background-color: #c3c2bf;
     font-weight: bold;
 
-    color: white;
+    color: black;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
 }
 
 .nav1:hover{
-    background-color: burlywood;
+    background-color: #88857e;
+    color: white;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0, 0, 0.3);
     transition: background-color .3s ease-in-out;
+    transition: color .3s ease-in-out;
     transition: box-shadow .3s ease-in-out;
 }
 
@@ -108,25 +108,26 @@ nav {
     display: inline-block;
     width: 200px;
     padding: 25px;
-    border: 2px solid burlywood;
-    color: black;
+    border: 2px solid #ebebeb;;
     font-size: 20px;
     text-decoration: none;
     border-radius: 20px;
     text-decoration: none;
-    background-color: #cf8a4f;
+    background-color: #c3c2bf;
     font-weight: bold;
 
-    color: white;
+    color: black;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
 }
 
 .nav2:hover{
-    background-color: burlywood;
+    background-color: #88857e;
+    color: white;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0, 0, 0.3);
     transition: background-color .3s ease-in-out;
+    transition: color .3s ease-in-out;
     transition: box-shadow .3s ease-in-out;
 }
 
@@ -149,9 +150,11 @@ footer {
 
 
 
+
+
+
 /* HEADER FOVORITE THINGS */
 .covertop2 {
-    background-color: #cf8a4f;
     text-align: center;
     position: relative;
     padding: 30px;
@@ -166,7 +169,8 @@ footer {
     padding: 30px;
     margin: 40px;
     align-items: flex-start;
-    background-color: #cf8a4f;
+    background-color: #ebebeb;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 .badminton img {
     width: 30%;
@@ -194,7 +198,8 @@ footer {
     padding: 30px;
     margin: 40px;
     align-items: flex-start;
-    background-color: #cf8a4f;
+    background-color: #c3c2bf;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 .youtube img {
@@ -222,7 +227,8 @@ footer {
     padding: 30px;
     margin: 40px;
     align-items: flex-start;
-    background-color: #cf8a4f;
+    background-color: #ebebeb;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 .musik img {
@@ -244,60 +250,95 @@ footer {
     padding-left: 20px;
 }
 
+/* KUCING */
+.kucing {
+    display: flex;
+    padding: 30px;
+    margin: 40px;
+    align-items: flex-start;
+    background-color: #c3c2bf;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.kucing img {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+.kucing h2 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+    padding: 0;
+    margin: 0;
+}
+
+.kucing ul {
+    padding-left: 20px;
+}
+
+
+
 /* NAVIGATION */
 .nav-fthings1 {
     margin-top: 10px;
     display: inline-block;
-    width: 200px;
+    width: 100px;
     padding: 25px;
-    border: 2px solid #fbf6cf;
+    border: 2px solid #ebebeb;
     color: black;
     font-size: 20px;
     text-decoration: none;
     border-radius: 20px;
     text-decoration: none;
-    background-color: burlywood;
+    background-color: #c3c2bf;
     font-weight: bold;
     
 
-    color: white;
+    color: black;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
 }
 
 .nav-fthings1:hover{
-    background-color: burlywood;
+    background-color: #88857e;
+    color: white;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0, 0, 0.3);
     transition: background-color .3s ease-in-out;
+    transition: color .3s ease-in-out;
     transition: box-shadow .3s ease-in-out;
 }
 
 .nav-fthings2 {
     margin-top: 10px;
     display: inline-block;
-    width: 200px;
+    width: 100px;
     padding: 25px;
-    border: 2px solid #fbf6cf;
+    border: 2px solid #ebebeb;
     color: black;
     font-size: 20px;
     text-decoration: none;
     border-radius: 20px;
     text-decoration: none;
-    background-color: burlywood;
+    background-color: #c3c2bf;
     font-weight: bold;
     
 
-    color: white;
+    color: black;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
 }
 
 .nav-fthings2:hover{
-    background-color: burlywood;
+    background-color: #88857e;
+    color: white;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0, 0, 0.3);
     transition: background-color .3s ease-in-out;
+    transition: color .3s ease-in-out;
     transition: box-shadow .3s ease-in-out;
 }
 
@@ -317,31 +358,27 @@ footer {
 
 
 /* HEADER ABOUT */
-.about {
-    background-color: #cf8a4f;
+.divabout h1 {
     text-align: center;
     position: relative;
-    padding: 30px;
     color: white;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
 }
 
-.p-about {
-    background-color: burlywood;
+.divabout p {
     text-align: center;
-    padding: 50px;
-    margin: 50px;
+    padding: 30px;
     border-radius: 5px;
+    background-color: #ebebeb;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navabout {
-    background-color: burlywood;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid #ebebeb;
 
     color: black;
     text-decoration: none;
@@ -350,10 +387,12 @@ footer {
 }
 
 .navabout:hover{
-    background-color: burlywood;
+    background-color: #88857e;
+    color: white;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     transition: background-color .3s ease-in-out;
+    transition: color .3s ease-in-out;
     transition: box-shadow .3s ease-in-out;
 }
 
